@@ -8,8 +8,8 @@
 }
 
 .middle-section {
-    background-color: #484848;
-    /* gradiente */
+    /* background-color: #484848; */
+    background-image: linear-gradient(to bottom right, grey, #303030);
 }
 
 .middle-section > .left-side > .row1 {
