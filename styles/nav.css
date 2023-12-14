@@ -1,4 +1,3 @@
-
 .navigation-wrapper{
     height: 190px;
     background-color: black;
@@ -56,7 +55,7 @@
 
 /* right column styles */
 .navigation-wrapper > .right-column{
-    display: flex;
+    display: grid;
     align-items: center;
     width: 400px;
 }
@@ -78,10 +77,10 @@
 .navigation-wrapper > .right-column > .links2-wrapper >.create-link {
     display: flex;    
     padding: 10px 20px;
-        background-color: #808080;
-        /* color: #cbcbcb; */
-        width: 60px;
-        border-radius: 2px;
+    background-color: #808080;
+    /* color: #cbcbcb; */
+    width: 60px;
+    border-radius: 2px;
 }
 
 .navigation-wrapper > .right-column > .links2-wrapper > .log-in-sign-up {

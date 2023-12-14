@@ -20,9 +20,6 @@
 .middle-section > .left-side > .row2 {
     font-size: 30px;
 }
-/* .text-color-row1 {
-    color: white;
-} */
 
 .text-color-row2 {
     color: #A8A8A8;
@@ -31,9 +28,11 @@
 .middle-section > .left-side > .row3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
     .both-buttons{
         display: flex;
+        margin: 30px 20px;
+        text-align: center;
     }
 }
 
@@ -44,6 +43,8 @@
     color: black;
     width: 200px;
     border-radius: 2px;
+    height: 70px;
+    margin: 0px 20px;
 }
 
 .middle-section > .left-side > .row3 > .both-buttons > .button2 {
@@ -76,11 +77,12 @@
     align-items: left;
     background-color: #282828;
     color: white;
-    /* grid-gap: 10px; */
-
 }
 
 .last-section > .last1 {
     border: 2px solid #787878;
     width: 25%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
 }
