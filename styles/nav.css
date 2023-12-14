@@ -1,0 +1,103 @@
+
+.navigation-wrapper{
+    height: 190px;
+    background-color: black;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+}
+
+
+/* left column styles */
+.navigation-wrapper > .left-column{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .logo-image img{
+    width: 216px;
+    height: 100%;
+}
+
+/* center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: 400px;
+}
+
+.navigation-wrapper > .center-column > .links-title {
+    color: #F0E68C;
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+}
+
+.navigation-wrapper > .center-column > .links-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .spark-link a{
+    color: #808080;
+    text-decoration: none;
+}
+
+
+
+/* right column styles */
+.navigation-wrapper > .right-column{
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+
+.navigation-wrapper > .right-column > .links2-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.navigation-wrapper > .right-column > .links2-wrapper a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    /* font-size: 0.9em; */
+}
+
+
+.navigation-wrapper > .right-column > .links2-wrapper >.create-link {
+    display: flex;    
+    padding: 10px 20px;
+        background-color: #808080;
+        /* color: #cbcbcb; */
+        width: 60px;
+        border-radius: 2px;
+}
+
+.navigation-wrapper > .right-column > .links2-wrapper > .log-in-sign-up {
+    padding: 10px 20px;
+    background-color: #808080;
+    /* color: #cbcbcb; */
+    width: 60px;
+    border-radius: 2px;
+}
+
+.navigation-wrapper > .right-column >.links2-wrapper > .find-icon i {
+    font-size: 30px;
+    /* font-size: 3em; */
+}
+
+.chevron-color{
+    color: green;
+}
+

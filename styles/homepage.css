@@ -1,0 +1,86 @@
+/* Seccion principal */
+
+.middle-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    /* width: 400px; */
+}
+
+.middle-section {
+    background-color: #484848;
+    /* gradiente */
+}
+
+.middle-section > .left-side > .row1 {
+    font-size: 40px;
+    color:white;
+}
+
+.middle-section > .left-side > .row2 {
+    font-size: 30px;
+}
+/* .text-color-row1 {
+    color: white;
+} */
+
+.text-color-row2 {
+    color: #A8A8A8;
+}
+
+.middle-section > .left-side > .row3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    .both-buttons{
+        display: flex;
+    }
+}
+
+
+.middle-section > .left-side > .row3 > .both-buttons >.button1 {
+    padding: 1px 20px;
+    background-color: green;
+    color: black;
+    width: 200px;
+    border-radius: 2px;
+}
+
+.middle-section > .left-side > .row3 > .both-buttons > .button2 {
+    padding: 1px 20px;
+    background-color: black;
+    color: white;
+    width: 150px;
+    border-radius: 2px;
+}
+
+.middle-section > .right-size > .logo-image img{
+    width: 600px;
+    height: 100%;
+}
+
+.middle-section > .right-size > .allTextImage {
+    display: flex;
+}
+
+.hand-color{
+    color:yellow;
+}
+
+
+/* Last section, 4 columns with information */
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: #282828;
+    color: white;
+    /* grid-gap: 10px; */
+
+}
+
+.last-section > .last1 {
+    border: 2px solid #787878;
+    width: 25%;
+}
